@@ -1,0 +1,12 @@
+title: The Storm Before The Storm
+permalink: pretty
+
+sass:
+  sass_dir: lib/css
+  style: compressed
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

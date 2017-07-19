@@ -1,0 +1,39 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: $color-background;
+  color: $color-text;
+  font-family: $font-body;
+  line-height: 1.45;
+  text-rendering: geometricPrecision;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-head;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}

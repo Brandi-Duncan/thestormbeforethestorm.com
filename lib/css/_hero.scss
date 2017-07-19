@@ -1,0 +1,12 @@
+.hero {
+  align-items: center;
+  background-image: radial-gradient(circle, $color-gold, transparent);
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.hero__art {
+  max-width: 25rem;
+  padding: 2rem;
+}

@@ -1,0 +1,28 @@
+.tour {
+  background: $color-white;
+  color: $color-black;
+  overflow: auto;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.tour__stops {
+  width: 100%;
+}
+
+.tour__stops td {
+  width: 33%;
+  padding: 0.5em;
+}
+
+.tour__date {
+  text-align: right;
+}
+
+.tour__venue {
+  text-align: left;
+}
+
+.tour__location {
+  font-weight: 700;
+}

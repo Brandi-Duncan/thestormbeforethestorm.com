@@ -21,3 +21,18 @@
         <a href="#">Powells</a>
     </div>
 </section>
+
+<section class="tour">
+    <h2>Tour</h2>
+    <table class="tour__stops">
+        <tbody>
+        {% for stop in site.data.tour %}
+            <tr>
+                <td class="tour__date">{{ stop.date }}</td>
+                <td class="tour__location">{{ stop.city }}, {{ stop.state }}</td>
+                <td class="tour__venue">{{ stop.venue }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</section>

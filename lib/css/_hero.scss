@@ -12,3 +12,13 @@
 .hero__info {
   text-align: center;
 }
+
+.hero__cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  > .button {
+    margin: 0 0.5em;
+  }
+}

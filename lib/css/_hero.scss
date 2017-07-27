@@ -1,12 +1,14 @@
 .hero {
-  align-items: center;
-  background-image: radial-gradient(circle, $color-gold, transparent);
-  display: flex;
-  justify-content: center;
-  height: 100%;
+  padding: 2rem;
+  background-image: linear-gradient(rgba($color-gold, 0.25), transparent);
 }
 
 .hero__art {
-  max-width: 25rem;
-  padding: 2rem;
+  box-shadow: 10px 10px 5px rgba($color-black, 0.25);
+  max-width: 18rem;
+  margin: 0 auto;
+}
+
+.hero__info {
+  text-align: center;
 }

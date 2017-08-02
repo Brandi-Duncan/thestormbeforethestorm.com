@@ -1,0 +1,22 @@
+.banner {
+    background-color: $color-black;
+    color: $color-gold;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: .5em;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    
+    &--release {
+    font-family: $font-head;
+        }
+    
+    &--date {
+        font-family: $font-body;
+        font-weight: 400;
+        font-style: italic;
+            }
+        
+}

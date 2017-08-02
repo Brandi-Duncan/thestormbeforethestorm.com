@@ -2,7 +2,7 @@
   background: $color-white;
   color: $color-black;
   overflow: auto;
-  padding: 4rem 2rem;
+  padding: 4rem 4rem;
   text-align: center;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .tour__stops td {
-  width: 33%;
+//  width: 20%;
   padding: 0.5em;
 }
 
@@ -25,4 +25,11 @@
 
 .tour__location {
   font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.tour__info {
+  text-align: left;
+  font-style: italic;
 }

@@ -1,24 +1,30 @@
 ---
 ---
 
+<div>
+   <h2 class="banner"><span class="banner--date">Release Date:</span><span class="banner--release"> October 24 2017</span></h2>
+</div>
+
 <header class="hero">
     <h1 class="hero__art">
         <img src="/lib/images/cover.jpg" alt="The Storm Before The Storm: The Beginning Of The End Of The Roman Republic">
     </h1>
     <div class="hero__info">
-        <h2>October 24, 2017</h2>
         <div class="hero__cta">
-            <a class="button" href="#order">Preorder</a>
-            <a class="button" href="#">Sample</a>
+<!--            <a class="button" href="#order">Preorder</a>-->
+            <a class="button" href="https://secure-hwcdn.libsyn.com/p/f/d/2/fd23dfd5207f9ba9/SBTS_Ch1_Master.mp3?c_id=16148242&expiration=1501512889&hwt=1faf42a75d14cd4fd7e231d1c72a8715">Listen to Sample Chapter</a>
         </div>
     </div>
 </header>
 
 <section class="order" id="order">
+   <h2>Preorder Now</h2>
     <div class="order__locations">
-        <a href="https://www.amazon.com/">Amazon</a>
-        <a href="https://www.barnesandnoble.com/">Barnes &amp; Noble</a>
-        <a href="http://www.powells.com/">Powell's</a>
+        <a href="https://www.amazon.com/gp/product/1610397215?tag=hacboogrosit-20">Amazon</a>
+        <a href="https://www.barnesandnoble.com/w/the-storm-before-the-storm-michael-duncan/1125684200?ean=9781610397216">Barnes &amp; Noble</a>
+        <a href="http://www.powells.com/SearchResults?kw=isbn:9781610397216">Powell's</a>
+        <a href="http://www.indiebound.org/book/9781610397216">Indibound</a>
+        <a href="http://www.booksamillion.com/p/Storm-Before/Michael-Duncan/9781610397216?id=7002449068496">Books-a-Million</a>
     </div>
 </section>
 
@@ -27,10 +33,19 @@
     <table class="tour__stops">
         <tbody>
         {% for stop in site.data.tour %}
-            <tr>
+           <tr>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+           </tr> 
+           <tr>
                 <td class="tour__date">{{ stop.date }}</td>
                 <td class="tour__location">{{ stop.city }}, {{ stop.state }}</td>
-                <td class="tour__venue">{{ stop.venue }}</td>
+                <td class="tour__venue">{{ stop.venue }}, {{ stop.time }}</td>
+                <td  colspan="2" class="tour__info">{{ stop.info }}</td>
+                <td></td>
             </tr>
         {% endfor %}
         </tbody>
@@ -39,6 +54,6 @@
 
 <section class="author">
     <h2>The Author</h2>
-    <p><a href="http://mikeduncan.fyi">Mike Duncan</a> is one of the foremost history podcasters in the world, with over 100 million episode downloads over his ten year career. His award-winning series <a href="http://thehistoryofrome.com">The History of Rome</a> remains one of the most popular history podcasts on the internet.</p>
-    <p>Duncan has continued this success with his ongoing series <a href="http://revolutionspodcast.com">Revolutions</a> which explores the great political revolutions of the Modern Age. His first book, The Storm Before the Storm: The Beginning of the End of the Roman Republic, is forthcoming in October 2017. He lives in Madison, Wisconsin.</p>
+    <p><a href="http://mikeduncan.fyi"><i>Mike Duncan</i></a> is one of the foremost history podcasters in the world, with over 100 million episode downloads over his ten year career. His award-winning series <a href="http://thehistoryofrome.com"><i>The History of Rome</i></a> remains one of the most popular history podcasts on the internet.</p>
+    <p>Duncan has continued this success with his ongoing series <a href="http://revolutionspodcast.com"><i>Revolutions</i></a> which explores the great political revolutions of the Modern Age. His first book, The Storm Before the Storm: The Beginning of the End of the Roman Republic, is forthcoming in October 2017. He lives in Madison, Wisconsin.</p>
 </section>

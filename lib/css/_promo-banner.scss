@@ -1,7 +1,7 @@
 .banner {
     background-color: $color-black;
     color: $color-gold;
-    font-size: 2em;
+    font-size: 1.75em;
     margin-top: 0;
     margin-bottom: 0;
     padding: .5em;
@@ -15,8 +15,12 @@
     
     &--date {
         font-family: $font-body;
-        font-weight: 400;
+        font-weight: 700;
         font-style: italic;
             }
+    &--tour {
+        font-family: $font-body;
+        font-size: .75em;
+    }
         
 }

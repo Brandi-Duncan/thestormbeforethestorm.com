@@ -7,4 +7,23 @@
   letter-spacing: 0.02em;
   padding: 0.75em 1.5em;
   text-transform: uppercase;
+    
+    &--outline {
+    font-family: $font-body;
+    background-color: transparent;
+    border: solid 2px rgba($color-black, 0.7);
+    color: rgba($color-black, 0.7);
+    text-transform: none;
+    border-radius: 4px;
+    padding: 0.5em 2.25em;
+    font-size: .8em;
+    width: 275px;
+      
+      &:hover {
+          background-color: inherit;
+          color: $color-white;
+      }
+      
+  }
+    
 }

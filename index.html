@@ -35,26 +35,16 @@
 
 <section class="tour" id="tour">
     <h2>Tour</h2>
-    <table class="tour__stops">
-        <tbody>
-        {% for stop in site.data.tour %}
-           <tr>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-           </tr> 
-           <tr>
-                <td class="tour__date">{{ stop.date }}</td>
-                <td class="tour__location">{{ stop.city }}, {{ stop.state }}</td>
-                <td class="tour__venue">{{ stop.venue }}, {{ stop.time }}</td>
-                <td  colspan="2" class="tour__info">{{ stop.info }}</td>
-                <td></td>
-            </tr>
-        {% endfor %}
-        </tbody>
-    </table>
+    {% for stop in site.data.tour %}
+    <div class="tour__stop">
+        <div class="tour__date">{{ stop.date }}</div>
+        <div class="tour__location">{{ stop.city }}, {{ stop.state }}</div>
+        <div class="tour__venue">
+            <a href="{{ stop.link }}">{{ stop.venue }}</a>, {{ stop.time }}
+        </div>
+        <div class="tour__info">{{ stop.info }}</div>
+    </div>
+    {% endfor %}
 </section>
 
 <section class="author">

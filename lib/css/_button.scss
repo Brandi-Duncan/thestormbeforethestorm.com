@@ -1,7 +1,7 @@
 .button {
-  background-color: $color-white;
+//  background-color: $color-white;
   border-radius: 2px;
-  color: $color-black;
+//  color: $color-black;
   display: inline-block;
   font-family: $font-head;
   letter-spacing: 0.02em;
@@ -11,8 +11,8 @@
     &--outline {
     font-family: $font-body;
     background-color: transparent;
-    border: solid 2px rgba($color-black, 0.7);
-    color: rgba($color-black, 0.7);
+    border: solid 2px rgba($color-gold, 0.7);
+    color: $color-gold;
     text-transform: none;
     border-radius: 4px;
     padding: 0.5em 2.25em;

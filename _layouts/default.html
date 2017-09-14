@@ -11,7 +11,12 @@
     <link rel="stylesheet" href="/lib/css/main.css">
 </head>
 <body>
-    {{ content }}
+    {% include promo-banner.html %}
+    {% include header.html %}
+    <main class="content">
+        {{ content }}
+    </main>
+    {% include footer.html %}
     
     <!-- Facebook Pixel Code -->
     <script>

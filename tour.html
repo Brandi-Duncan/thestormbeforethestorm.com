@@ -1,0 +1,16 @@
+---
+title: <h1 class="center">Tour</h1>
+---
+<section class="tour" id="tour">
+    <h2>Tour</h2>
+    {% for stop in site.data.tour %}
+    <div class="tour__stop">
+        <div class="tour__date">{{ stop.date }}</div>
+        <div class="tour__location">{{ stop.city }}, {{ stop.state }}</div>
+        <div class="tour__venue">
+            <a href="{{ stop.link }}">{{ stop.venue }}</a>, {{ stop.time }}
+        </div>
+        <div class="tour__info">{{ stop.info }}</div>
+    </div>
+    {% endfor %}
+</section>

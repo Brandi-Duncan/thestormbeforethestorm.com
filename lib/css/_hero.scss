@@ -24,6 +24,7 @@
 .hero__info {
   text-align: left;
     
+    
     @media screen and (min-width: 769px) {
 //        text-align: left;
         max-width: 60%;
@@ -52,6 +53,26 @@
     font-size: 1.25em;
     font-weight: 700;
     padding: 0 1em;
+    margin-bottom: 0;
+}
+
+.attribution {
+    text-align: right;
+    font-size: 1.25em;
+    padding: 0 1em;
     margin-bottom: 1em;
+    margin-top: 0;
+}
+
+.bold {
+    font-weight: 700;
+    
+    > a {
+        
+        text-decoration: none;
+            &:hover {
+            color: $color-white;
+            }        
+        }   
 }
 

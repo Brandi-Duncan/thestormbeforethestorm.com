@@ -6,12 +6,17 @@
   text-align: center;
 }
 
+.sbts-title {
+    font-family: $font-body;
+}
+
 .tour__stop {
   display: flex;
 //    border-bottom: solid 1px $color-gold;
     margin-bottom: 1em;
     margin-top: 1em;
-    flex-direction: column;    
+    flex-direction: column;
+    
     
         @media screen and (min-width: 769px) {
         flex-direction: row;
@@ -48,6 +53,12 @@
 .tour__venue {
     margin-right: 1.5em;
     text-align: left;
+    
+        > a {
+            &:hover {
+            color: $color-white;
+            }        
+        }    
     
     @media screen and (min-width: 769px) {
         margin-bottom: 1em;

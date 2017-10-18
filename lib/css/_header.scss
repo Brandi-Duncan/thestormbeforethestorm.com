@@ -1,11 +1,8 @@
 .header {
-//  background-color: $color-white;
-//  background-image: url("/lib/images/tile-texture.jpg");
   border-bottom: solid 1px rgba($color-gold, 0.3);
-//  border-top: solid 1px $color-gold;
   display: flex;
   justify-content: center;
-  align-items: center;
+//  align-items: center;
   flex-wrap: wrap;
   font-weight: 700;
   position: relative;
@@ -13,8 +10,7 @@
 }
 
 .header a {
-//  margin-bottom: 0.25em;
-//  margin-top: 0.25em;
+
     margin: .5em;
     padding: 0 2em;
   text-decoration: none;
@@ -36,25 +32,11 @@
   color: $color-gold;
   display: flex;
   flex-wrap: wrap;
+    justify-content: center;
   font-size: 0.875rem;
-    padding-right: 2.5rem;
-    padding-left: 2.5rem;
+//    padding-right: 1.5rem;
+//    padding-left: 1.5rem;
 }
-
-//.header__nav > ul {
-//    display: inline-block;
-//}
-//
-//.header__nav > ul > li {
-//    display: inline-block;
-//    margin: 0 20px;
-//    width: 100px;
-//    position: relative;
-//}
-
-//.header__nav > a:not(:last-child) {
-//  padding-right: 2.5em;
-//}
 
 .logo {
     max-width: 5em;
@@ -69,12 +51,13 @@
     display: inline-block;
   }
   .header__nav {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
   }
   .header__nav > a,
   .header__nav > a:not(:last-child) {
-    border-bottom: solid 1px rgba($color-gold, 0.4);
+//    border-bottom: solid 1px rgba($color-gold, 0.4);
     margin: .5em 0;
-    padding: 0.5em 0;
+    padding: 0.5em 1.5em;
   }
 }

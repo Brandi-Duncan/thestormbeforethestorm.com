@@ -1,0 +1,26 @@
+.audio-interviews {
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+
+.w-100 {
+    width: 100%;
+}
+
+.podcasts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 1em 1em 1em;
+    
+    > a {
+        padding: 1em;
+        max-width: 175px;
+        
+        > img {
+            border: solid 1px rgba($color-gold, 0.3);
+        }
+    }
+}

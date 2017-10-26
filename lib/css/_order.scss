@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+#order > h2 {
+    margin-bottom: 0;
+}
+
 .order__locations {
   display: flex;
   justify-content: space-around;

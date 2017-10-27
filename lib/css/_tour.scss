@@ -22,6 +22,10 @@
         flex-direction: row;
       }
 }
+//
+//.tour__stop:nth-child(-n+4) {
+//    opacity: .65;
+//}
 
 .tour__stop:not(:last-child) {
         border-bottom: solid 1px rgba($color-gold, 0.3);
@@ -53,11 +57,14 @@
 .tour__venue {
     margin-right: 1.5em;
     text-align: left;
+    font-weight: 700;
+    color: rgba($color-white, 0.8);
+    font-style: italic;
     
         > a {
             &:hover {
             color: $color-white;
-            font-weight: 700;
+            text-decoration: underline;
             }        
         }    
     

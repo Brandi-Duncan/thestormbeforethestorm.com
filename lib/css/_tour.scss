@@ -6,6 +6,13 @@
   text-align: center;
 }
 
+.tour-header-image {
+    background-image: url(/lib/images/tour-header-image.jpg);
+    background-position: center;
+    width: 100%;
+    height: 200px;
+}
+
 .sbts-title {
     font-family: $font-body;
 }

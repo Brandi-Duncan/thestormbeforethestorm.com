@@ -1,6 +1,6 @@
 .hero {
   padding: 4rem 2rem 2rem 2rem;
-  background-image: linear-gradient(rgba($color-gold, 0.25), transparent);
+  background-image: linear-gradient(rgba($color-dark-gold, 0.15), transparent);
   display: flex;
   flex-wrap: wrap;
     flex-direction: column;
@@ -72,6 +72,7 @@
         text-decoration: none;
             &:hover {
             color: $color-white;
+            text-decoration: underline;
             }        
         }   
 }
